@@ -1,0 +1,56 @@
+test_area (test_circle.CircleTestCase.test_area) ... ok
+test_fractional_area (test_circle.CircleTestCase.test_fractional_area) ... ok
+test_fractional_perimeter (test_circle.CircleTestCase.test_fractional_perimeter) ... ok
+test_invalid_types (test_circle.CircleTestCase.test_invalid_types) ... ok
+test_invalid_values (test_circle.CircleTestCase.test_invalid_values) ... ok
+test_maximum_size (test_circle.CircleTestCase.test_maximum_size) ... ok
+test_perimeter (test_circle.CircleTestCase.test_perimeter) ... ok
+test_unit_radius (test_circle.CircleTestCase.test_unit_radius) ... ok
+test_zero_area (test_circle.CircleTestCase.test_zero_area) ... ok
+test_zero_perimeter (test_circle.CircleTestCase.test_zero_perimeter) ... ok
+test_area (test_rectangle.RectangleTestCase.test_area) ... ok
+test_both_zero (test_rectangle.RectangleTestCase.test_both_zero) ... ok
+test_fractional_sides (test_rectangle.RectangleTestCase.test_fractional_sides) ... ok
+test_invalid_types_in_each_position (test_rectangle.RectangleTestCase.test_invalid_types_in_each_position) ... ok
+test_invalid_values_in_each_position (test_rectangle.RectangleTestCase.test_invalid_values_in_each_position) ... ok
+test_maximum_size (test_rectangle.RectangleTestCase.test_maximum_size) ... ok
+test_perimeter (test_rectangle.RectangleTestCase.test_perimeter) ... ok
+test_side_order (test_rectangle.RectangleTestCase.test_side_order) ... ok
+test_square (test_rectangle.RectangleTestCase.test_square) ... ok
+test_zero_first_side (test_rectangle.RectangleTestCase.test_zero_first_side) ... ok
+test_zero_second_side (test_rectangle.RectangleTestCase.test_zero_second_side) ... ok
+test_area (test_square.SquareTestCase.test_area) ... ok
+test_fractional_area (test_square.SquareTestCase.test_fractional_area) ... ok
+test_fractional_perimeter (test_square.SquareTestCase.test_fractional_perimeter) ... ok
+test_invalid_types (test_square.SquareTestCase.test_invalid_types) ... ok
+test_invalid_values (test_square.SquareTestCase.test_invalid_values) ... ok
+test_maximum_size (test_square.SquareTestCase.test_maximum_size) ... ok
+test_perimeter (test_square.SquareTestCase.test_perimeter) ... ok
+test_unit_side (test_square.SquareTestCase.test_unit_side) ... ok
+test_zero_area (test_square.SquareTestCase.test_zero_area) ... ok
+test_zero_perimeter (test_square.SquareTestCase.test_zero_perimeter) ... ok
+test_degenerate_triangle (test_triangle.TriangleTestCase.test_degenerate_triangle) ... ok
+test_equilateral (test_triangle.TriangleTestCase.test_equilateral) ... ok
+test_fractional_sides (test_triangle.TriangleTestCase.test_fractional_sides) ... ok
+test_impossible_triangle (test_triangle.TriangleTestCase.test_impossible_triangle) ... ok
+test_invalid_types_in_each_position (test_triangle.TriangleTestCase.test_invalid_types_in_each_position) ... ok
+test_invalid_values_in_each_position (test_triangle.TriangleTestCase.test_invalid_values_in_each_position) ... ok
+test_isosceles (test_triangle.TriangleTestCase.test_isosceles) ... ok
+test_maximum_side (test_triangle.TriangleTestCase.test_maximum_side) ... ok
+test_right_triangle_area (test_triangle.TriangleTestCase.test_right_triangle_area) ... ok
+test_right_triangle_perimeter (test_triangle.TriangleTestCase.test_right_triangle_perimeter) ... ok
+test_side_order (test_triangle.TriangleTestCase.test_side_order) ... ok
+test_above_maximum (test_validation.ValidationTestCase.test_above_maximum) ... ok
+test_boolean (test_validation.ValidationTestCase.test_boolean) ... ok
+test_maximum_size (test_validation.ValidationTestCase.test_maximum_size) ... ok
+test_negative (test_validation.ValidationTestCase.test_negative) ... ok
+test_non_finite (test_validation.ValidationTestCase.test_non_finite) ... ok
+test_positive_float (test_validation.ValidationTestCase.test_positive_float) ... ok
+test_positive_integer (test_validation.ValidationTestCase.test_positive_integer) ... ok
+test_wrong_types (test_validation.ValidationTestCase.test_wrong_types) ... ok
+test_zero (test_validation.ValidationTestCase.test_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.001s
+
+OK
