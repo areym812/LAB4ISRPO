@@ -34,4 +34,24 @@ python3 main.py triangle 3 4 5
 | Версия | Изменения |
 | --- | --- |
 | 1.0 | Созданы программа и требования к входным данным. |
+| 1.1 | Добавлены 51 unit-тест, проверки ошибок и инструкция по запуску тестов. |
+
+## Запуск unit-тестов
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+Отдельный файл и отдельный тест:
+
+```bash
+python3 -m unittest tests.test_rectangle -v
+python3 -m unittest tests.test_rectangle.RectangleTestCase.test_zero_second_side -v
+```
+
+`unittest` входит в стандартную библиотеку Python: устанавливать его через pip не нужно.
+Успешный запуск заканчивается сообщением `Ran 51 tests` и `OK`.
+`subTest` перебирает несколько наборов данных внутри одного тестового метода;
+они не увеличивают число в строке `Ran ... tests`.
+
 
