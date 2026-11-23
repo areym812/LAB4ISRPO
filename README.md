@@ -61,7 +61,6 @@ python3 -m unittest tests.test_rectangle.RectangleTestCase.test_zero_second_side
 - [Фактический вывод unittest](docs/test_results.txt)
 - [Протокол 14 консольных проверок](docs/manual_checks.md)
 - [Демонстрация обнаружения дефекта](docs/failure_demo.txt)
-- [Объяснения для защиты](docs/DEFENSE.md)
 
 Репозиторий: https://github.com/areym812/LAB4ISRPO
 
